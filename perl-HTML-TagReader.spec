@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	TagReader
 Summary:	HTML::TagReader - reading HTML/SGML/XML files by tags
-Summary(pl):	HTML::TagReader - czytanie plików HTML/SGML/XML po znaczniku
+Summary(pl.UTF-8):   HTML::TagReader - czytanie plikÃ³w HTML/SGML/XML po znaczniku
 Name:		perl-HTML-TagReader
 Version:	1.08
 Release:	1
@@ -33,16 +33,16 @@ file even though you are not reading the file by line. This important
 if you want to implement error messages about HTML errors in your
 code.
 
-%description -l pl
-Ten modu³ implementuje szybk±, obiektowo zorientowan± metodê
-przetwarzania dowolnego rodzaju plików HTML/SGML/XML po znaczniku.
+%description -l pl.UTF-8
+Ten moduÅ‚ implementuje szybkÄ…, obiektowo zorientowanÄ… metodÄ™
+przetwarzania dowolnego rodzaju plikÃ³w HTML/SGML/XML po znaczniku.
 
 getbytoken(0) jest podobne do while(<>), ale zamiast czytania linii
 czyta znaczniki lub znaczniki i tekst.
 
-HTML::TagReader umo¿liwia ³atwe ¶ledzenie numeru linii w pliku nawet
-je¶li nie jest on czytany po linii. Jest to wa¿ne przy implementowaniu
-komunikatów b³êdów dotycz±cych HTML-a.
+HTML::TagReader umoÅ¼liwia Å‚atwe Å›ledzenie numeru linii w pliku nawet
+jeÅ›li nie jest on czytany po linii. Jest to waÅ¼ne przy implementowaniu
+komunikatÃ³w bÅ‚Ä™dÃ³w dotyczÄ…cych HTML-a.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
