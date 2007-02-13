@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	TagReader
 Summary:	HTML::TagReader - reading HTML/SGML/XML files by tags
-Summary(pl.UTF-8):   HTML::TagReader - czytanie plików HTML/SGML/XML po znaczniku
+Summary(pl.UTF-8):	HTML::TagReader - czytanie plików HTML/SGML/XML po znaczniku
 Name:		perl-HTML-TagReader
 Version:	1.08
 Release:	1
