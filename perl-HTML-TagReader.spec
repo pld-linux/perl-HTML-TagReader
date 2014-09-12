@@ -73,6 +73,5 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/tr_*
 %{perl_vendorarch}/HTML/TagReader.pm
 %dir %{perl_vendorarch}/auto/HTML/TagReader
-%{perl_vendorarch}/auto/HTML/TagReader/TagReader.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/HTML/TagReader/TagReader.so
 %{_mandir}/man[13]/*
