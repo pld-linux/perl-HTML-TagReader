@@ -8,7 +8,7 @@ Summary:	HTML::TagReader - reading HTML/SGML/XML files by tags
 Summary(pl.UTF-8):	HTML::TagReader - czytanie plików HTML/SGML/XML po znaczniku
 Name:		perl-HTML-TagReader
 Version:	1.10
-Release:	12
+Release:	13
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
